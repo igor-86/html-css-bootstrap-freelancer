@@ -13,7 +13,27 @@ a {
     text-decoration: none;
     color: white;
 }
+/* Box line */
+.box-line {
+    height: 4px;
+    background-color:white;
+}
+.box-line-d {
+    height: 4px;
+    background-color:var(--color-1);
+}
+/* Tipography */
+h1,h2 {
+    text-transform: uppercase;
+}
+p {
+    text-transform: inherit;
+}
 
+/* color */
+.text-color {
+    background-color: var(--color-1);
+}
 
 /* Custom Property */
 :root {
@@ -29,17 +49,24 @@ a {
     border: 1px solid black;
     height: 20px;
 }
-
+.box-d i {
+    color: var(--color-1);
+}
+.box i {
+    color: white;
+}
 
 /* Header */
 .nav {
     background-color: var(--color-1);
     height: 80px;
     line-height: 80px;
+    text-transform: uppercase;
 }
 .box {
-    text-transform: uppercase;
+    
     color: white;
+    border-radius: 15px;
 }
 .box .box-img {
     width: 80%;
@@ -49,17 +76,37 @@ a {
     display: flex;
     justify-content: center;
 }
-.box i {
-    color: white;
-}
+
 /* Main */
+/* Jumbotron */
 #jumbotron {
     background-color: var(--color-2);
 }
-.box-line {
-    height: 4px;
-    background-color: white;
+/* About */
+#about {
+    background-color: var(--color-2);
 }
+button {
+    background-color: inherit;
+    border: 1px solid white;
+}
+
+/* Footer */
+/* Info */
+#info {
+    background-color: var(--color-3);
+}
+/* Bottom */
+#bottom {
+    background-color: var(--color-1);
+}
+.footer-bottom {
+    color: white;
+    font-size: .9rem;
+}
+
+
+
 /* Media Queries */
 
 /* Tablet */
