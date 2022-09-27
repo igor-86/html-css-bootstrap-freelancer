@@ -1,0 +1,75 @@
+/* Common */
+img {
+    max-width: 100%;
+}
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+ul li {
+    margin: 0 1em;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Custom Property */
+:root {
+    /* Colors */
+    --color-1: #2C3E50;
+    --color-2: #1ABC9C;
+    --color-3: #3A546D;
+    /* Font */
+
+}
+/* DEBUG */
+.c-box {
+    border: 1px solid black;
+    height: 20px;
+}
+
+
+/* Header */
+.nav {
+    background-color: var(--color-1);
+    height: 80px;
+    line-height: 80px;
+}
+.box {
+    text-transform: uppercase;
+    color: white;
+}
+.box .box-img {
+    width: 80%;
+    margin: 0 auto;
+}
+.main-menu {
+    display: flex;
+    justify-content: center;
+}
+.box i {
+    color: white;
+}
+/* Main */
+#jumbotron {
+    background-color: var(--color-2);
+}
+.box-line {
+    height: 4px;
+    background-color: white;
+}
+/* Media Queries */
+
+/* Tablet */
+
+@media screen and (min-width:768px) {
+    
+}
+
+/* Desktop */
+
+@media screen and (min-width:992px) {
+    
+}
